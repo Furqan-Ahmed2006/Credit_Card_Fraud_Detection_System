@@ -80,6 +80,10 @@ The system predicts whether a transaction is **Fraudulent** or **Normal** and pr
 - Focus on **recall** since catching fraud is more important than overall accuracy.
 
 ---
+For testing visit:
+  
+🔗https://creditcardfrauddetectionsystem-acr4bbgqpvvf5nefnpqbta.streamlit.app/
+
 
 ## ⚡ API & Frontend Deployment
 - **FastAPI** endpoint `/predict` accepts:
@@ -127,6 +131,3 @@ Evaluating models using recall-focused metrics
 Deploying ML API with FastAPI
 Creating interactive frontend with Streamlit
 
-For testing visit:
-  
-🔗https://creditcardfrauddetectionsystem-acr4bbgqpvvf5nefnpqbta.streamlit.app/
