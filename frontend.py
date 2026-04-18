@@ -33,7 +33,7 @@ with col2:
     
     if analyze_btn:
         try:
-            url = "http://127.0.0.1:8000/predict"
+            url = "https://furqan2006-credit-card-fraud-detection.hf.space/predict"
             payload = {"time": float(time_input), "amount": float(amount_input)}
             response = requests.post(url, json=payload)
             
